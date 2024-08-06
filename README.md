@@ -63,6 +63,12 @@ python main.py
 
 This will launch the login window. After successful authentication, you'll be presented with the main application window.
 
+To make into linux executable
+
+```
+rm -rf build dist && pyinstaller ems_board_id_generator.spec && cd dist/ems_board_id_generator && ./ems_board_id_generator
+```
+
 ## Board Detection
 
 The EMS Board ID Generator includes an automated board detection feature that works as follows:
